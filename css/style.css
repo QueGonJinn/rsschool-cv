@@ -1,0 +1,100 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+
+body {
+    background: url(../img/2725569.png) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.container {
+    position: relative;
+    max-width: 950px;
+    margin: 0 auto;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #ffffff;
+    border-radius: 10px;
+    
+    
+}
+
+.main__information {
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.main__photo {
+    height: 250px;
+    margin: 20px 15px 20px 15px;
+}
+
+.main__connection {
+    display: grid;
+    align-items: center;
+    grid-template-rows: 55px 55px 55px;   
+}
+
+.connection__wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.connection__text {
+    margin-right: 5px;
+    font-weight: 700;
+
+}
+
+a {
+    text-decoration: none;
+    font-style:oblique;
+    color: #ffffff
+}
+
+.about__me {
+    padding: 5px 10px 5px 15px;
+    background-repeat: #aaa;
+}
+
+.about__me__text {
+    margin-top: 5px;
+}
+.title {
+ 
+    text-align: center;
+}
+
+.skills__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.skills__img {
+    height: 120px;
+    padding: 5px;
+}
+
+.code__exaples{
+    margin-top: 10px;
+}
+
+.educational__projects {
+    margin-top: 10px;
+}
+
+.project__category{
+    margin: 0 auto;
+}
+
+.category__title {
+    margin: 15px 10px 5px 5px;
+}
