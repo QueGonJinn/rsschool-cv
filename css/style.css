@@ -23,6 +23,77 @@ body {
     
 }
 
+.top__menu {
+    position: relative; 
+    background: #ffffff10;
+    box-shadow: inset 0 0 10px #ccc;
+}
+
+.top__menu::before,
+.top__menu:after {
+    content: "";
+    display: block;
+    height: 1px;
+    border-top: 3px solid #575350;
+    border-bottom: 1px solid #575350;
+    margin-bottom: 2px;
+  }
+
+.top__menu:after {
+    border-bottom: 3px solid #575350;
+    border-top: 1px solid #575350;
+    box-shadow: 0 2px 7px #ccc;
+    margin-top: 2px;
+  }
+
+
+
+.header__menu {
+    list-style: none;
+    padding: 0 30px;
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+
+.header__menu:before,
+.header__menu:after {
+  content: "\25C8";
+  line-height: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header__menu:before {left: 15px;}
+.header__menu:after {right: 15px;}
+.header__menu li {
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.header__menu a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 2px 5px;
+    padding: 6px 5px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    transition: .3s linear;
+    text-transform: uppercase;
+  }
+  .header__menu .current, .header__menu a:hover {
+    border-radius: 3px;
+    background: #f3ece1;
+    color: #313131;
+    text-shadow: 0 1px 0 #fff;
+    border-color: #c6c6c6;
+  }
+
+
 .main__information {
     display: flex;
     margin: 0 auto;
@@ -90,6 +161,10 @@ a {
 .educational__projects {
     margin-top: 10px;
 }
+.languages{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
 
 .project__category{
     margin: 0 auto;
@@ -97,4 +172,15 @@ a {
 
 .category__title {
     margin: 15px 10px 5px 5px;
+}
+
+
+.footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__img {
+    width: 300px;
 }
