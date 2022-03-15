@@ -2,6 +2,7 @@
 29 years, 19.03.1992
 ![markdown-foto](img/markdown.png)
 
+
 ## Connection
 * **+375297026403**
 * **molialow13@gmail.com**
@@ -51,7 +52,7 @@ function countCats(matrix) {
 3. Udemy
     * Udemy, Web developer
     * Udemy, JavaScript + React
-    
+
 ## Languages
  * English
  * Russian
