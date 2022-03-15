@@ -51,6 +51,7 @@ function countCats(matrix) {
 3. Udemy
     * Udemy, Web developer
     * Udemy, JavaScript + React
+    
 ## Languages
  * English
  * Russian
