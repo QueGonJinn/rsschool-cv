@@ -1,4 +1,30 @@
 .footer {
 	grid-area: footer;
-	margin: 0 auto;
+	padding: 20px;
+	display: grid;
+	height: 30px;
+	grid-template-columns:  minmax(200px, 410px) minmax(490px, 770px);
+	grid-template-areas: "rss year";
+	background: $black;
+	&_rss {
+		grid-area: rss;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		& img {
+			max-height: 35px;
+		}
+	}
+
+	&_link {
+		margin: 0 auto;
+		grid-area: year;
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 800;
+		font-size: 30px;
+		color: $white;
+		text-decoration: none;
+	}
+	align-items: center;
 }

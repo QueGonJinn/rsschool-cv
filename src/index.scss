@@ -1,8 +1,12 @@
 @import 'libs/normalize';
-@import 'style/_fonts';
+@import 'style/libs/_fonts';
+@import 'style/libs/_variebles';
 @import 'style/_container';
 @import 'style/_header';
-@import 'style/_aside';
+@import 'style/aside/_aside';
 @import 'style/_main';
-@import 'style/footer';
+@import 'style/_footer';
+@import 'style/libs/_title';
+@import 'style//libs/_divider';
+
 

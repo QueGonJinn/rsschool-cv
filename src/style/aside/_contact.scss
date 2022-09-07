@@ -1,0 +1,51 @@
+.contact {
+	margin-bottom: 30px;
+}
+.elem_wrapper {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 10px;
+	& img {
+		width: 30px;
+	}
+}
+
+.elem_text {
+	display: block;
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 30px;
+	color: $white;
+}
+
+.phone {
+	text-decoration: none;
+	color: $white;
+}
+
+.email {
+	text-decoration: none;
+	color: $white;
+}
+
+.git {
+	text-decoration: none;
+	color: $white;
+}
+
+.addres {
+	text-decoration: none;
+	color: $white;
+}
+
+@media (max-width: 769px) {
+
+	.elem_text {
+		font-size: 14px;
+		line-height: 10px;
+	}
+}

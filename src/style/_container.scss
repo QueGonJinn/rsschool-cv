@@ -2,13 +2,13 @@
 	display: grid;
 	max-width: 1200px;
 	margin: 0 auto;
-	grid-template-columns: auto minmax(200px, 400px) minmax(490px, 750px) auto;
+	grid-template-columns: minmax(200px, 410px) minmax(490px, 770px);
 	grid-template-rows: auto 1fr auto;
 
 	min-height: 100vh;
 
 	grid-template-areas: 
-		". header header ."
-		". aside main ."
-		"footer footer footer footer";
+		"header header"
+		"aside main"
+		"footer footer";
 }

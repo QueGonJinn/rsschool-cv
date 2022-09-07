@@ -1,0 +1,38 @@
+.divider {
+	max-width: 113px;
+	height: 1px;
+	background-color: $white;
+	border: 1px solid $white;
+	border-radius: 20px;
+	margin-bottom: 20px;
+
+	&.tech {
+		max-width: 143px;
+	}
+
+	&.langauge {
+		max-width: 140px;
+	}
+	
+	&.hobby {
+		max-width: 91px;
+	}
+
+	&.aboutMe {
+		max-width: 134px;
+		background-color: $main;
+		border: 1px solid $main;
+	}
+
+	&.educationD {
+		max-width: 139px;
+		background-color: $main;
+		border: 1px solid $main;
+	}
+
+	&.projectD {
+		max-width: 287px;
+		background-color: $main;
+		border: 1px solid $main;
+	}
+}

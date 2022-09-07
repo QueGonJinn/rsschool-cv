@@ -1,0 +1,17 @@
+.aside {
+	grid-area: aside;
+	padding: 50px 46px 100px 46px;
+	background-color: $black;
+}
+
+@media (max-width: 769px) {
+	.aside {
+		padding: 10px;
+	}
+}
+
+@import './_contact';
+@import './_techskills';
+@import './_langauge';
+@import './_hobby';
+

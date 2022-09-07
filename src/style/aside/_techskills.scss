@@ -1,0 +1,26 @@
+.tech_skills {
+	margin-bottom: 30px;
+}
+.skills_loading {
+	width: 95%;
+	height: 14px;
+	background: $white;
+	border-radius: 4px;
+	&-cl {
+		display: block;
+		width: 90%;
+		height: 100%;
+		background: $main;
+		border-radius: 4px;
+	}
+	&-percent {
+		display: block;
+		width: 17px;
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 14px;
+		line-height: 16px;
+		color: $white;
+	}
+}

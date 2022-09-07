@@ -1,3 +1,197 @@
 .main {
 	grid-area: main;
+	padding: 30px 50px 27px 37px;
+}
+
+.main_information{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.main_information-descr {
+	margin-top: 40px;
+	text-align: right;
+}
+
+.specialisation {
+	margin-bottom: 61px;
+	font-family: 'Righteous';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: $black;
+	text-transform: capitalize;
+}
+
+.social_wrapper {
+	display: flex;
+	gap: 5px;
+	justify-content: flex-end;
+}
+
+.about_me {
+	margin-bottom: 20px;
+}
+
+.about_me-descr {
+	font-family: 'Titillium Web';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 25px;
+	color: $black;
+}
+
+.education {
+	margin-bottom: 20px;
+	&_items {
+		display: flex;
+		justify-content: space-between;
+	}
+	&_item {
+		margin-bottom: 10px;
+	}
+	&_name {
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 30px;
+		color: #000;
+	}
+	&_year {
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 30px;
+		color: #000;
+	}
+	&_spec {
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 20px;
+		line-height: 30px;
+		color: $black;
+	}
+}
+
+.project {
+	&_wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&_item {
+		max-width: 200px;
+		display: flex;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		border-radius: 10px;
+		padding: 5px;
+		background: $main;
+	}
+	&_href {
+		text-decoration: none;
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		color: $white;
+		
+	}
+	&_img {
+		max-width: 200px;
+		min-height: 160px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+	&_title {
+		font-weight: 700;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.project {
+	&_wrapper {
+		display: flex;
+		justify-content: space-between;
+	}
+	&_item {
+		max-width: 160px;
+		display: flex;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		border-radius: 10px;
+		padding: 5px;
+		background: $main;
+	}
+	&_href {
+		text-decoration: none;
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		color: $white;
+		
+	}
+	&_img {
+		max-width: 160px;
+		min-height: 120px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+	&_title {
+		font-weight: 700;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+}
+}
+
+@media (max-width: 769px) {
+	.main {
+		padding: 10px;
+	}
+	.project {
+	&_wrapper {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+	}
+	&_item {
+		max-width: 150px;
+		display: flex;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		border-radius: 10px;
+		padding: 5px;
+		background: $main;
+	}
+	&_href {
+		text-decoration: none;
+		font-family: 'Titillium Web';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		color: $white;
+		
+	}
+	&_img {
+		max-width: 150px;
+		min-height: 100px;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+	&_title {
+		font-weight: 700;
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+}
 }
